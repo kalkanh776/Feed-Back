@@ -37,9 +37,9 @@
 		transitionDuration: 2500,
 		delay: 5000,
     	slides: [
-       	{ src: "../images/slides/slider1.jpeg" },
-        	{ src: "images/project-01.jpg" },
-        	{ src: "images/project-02.jpg" }
+       		{ src: "images/sld2.jpg"},
+        	{ src: "images/sld5.jpg" },
+        	{ src: "images/sld6.jpg" }
     	]
 	});
 
