@@ -821,6 +821,7 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	outline: 0;
+	top: 100;
 	border: none;
 	width: 200px;
 	height: 90px;
@@ -840,7 +841,6 @@ header .logo a {
  * header social - (_layout.css)  
  * ------------------------------------------------------------------- */
 header .social-links {
-	position: absolute;
 	right: 20px;
 	top: 78px;
 	text-align: right;
@@ -870,7 +870,7 @@ header .social-links ul li a:visited {
 
 header .social-links ul li a:hover,
 header .social-links ul li a:focus {
-	color: #057f78;
+	color: #e580ff;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1229,7 +1229,7 @@ header .social-links ul li a:focus {
 	}
 	.main-content-tablecell #counter span sup {
 		font-size: .2em;
-		top: -2.8em;
+		top: -2.8em
 	}
 	.main-content-tablecell h1 {
 		font-size: 2.4rem;
@@ -1252,9 +1252,9 @@ h2::before{
 	left: 0;
 	width: 0;
 	height: 100%;
-	color:  #000066;
+	color:  #870ea5;
 	-webkit-text-stroke: 0.2vw gainsboro;
-	border-right: 1px solid #0000b3 ;
+	border-right: 1px solid #870ea5 ;
 	overflow: hidden;
 	animation: animate 6s linear infinite;
 }
@@ -1316,7 +1316,7 @@ h2::before{
 	background: transparent;
 	font-size: 1.4rem;
 	letter-spacing: .2rem;
-	color: rgba(17, 17, 17, 0.6);
+	color:  black;
 	padding: .9rem 3rem;
 	margin: 0 1rem 0 0;
 	border: 1px solid rgba(0, 0, 0, 0.15);
@@ -1327,10 +1327,10 @@ h2::before{
 }
 #info .tabs-wrap ul.tabs li:hover {
 	background: rgba(255, 255, 255, 0.2);
-	color: rgba(17, 17, 17, 0.8);
+	color: #5900b3;
 }
 #info .tabs-wrap ul.tabs li.active {
-	background: #151515;
+	background: #bf80ff;
 	color: #FFFFFF;
 	border: none;
 }
@@ -1463,7 +1463,7 @@ h2::before{
 .about-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
-	color: #034e4a;
+	color:#bf80ff;
 }
 .about-list .icon i {
 	font-size: 5.4rem;
@@ -1527,7 +1527,7 @@ h2::before{
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #034e4a;
+	background: #5900b3;
 }
 
 #tab-contact .form-field label::after {
@@ -1537,7 +1537,7 @@ h2::before{
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #034e4a;
+	border-right: 5px solid #5900b3;
 	content: "";
 }
 
@@ -1558,7 +1558,7 @@ h2::before{
 }
 
 #tab-contact #message-success {
-	color: #034e4a;
+	color: #5900b3;
 }
 
 #tab-contact #message-warning i,
@@ -1579,7 +1579,7 @@ h2::before{
 #submit-loader .text-loader {
 	display: none;
 	font-family: "roboto-black", sans-serif;
-	color: #034e4a;
+	color:#5900b3;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
@@ -1663,7 +1663,7 @@ h2::before{
  *
  * ------------------------------------------------------------------- */
 #cta {
-	background: #034e4a;
+	background: #5900b3;
 	padding-top: 9rem;
 	padding-bottom: 7.8rem;
 	text-align: center;
@@ -1755,7 +1755,7 @@ footer .footer-social-list a:visited {
 
 footer .footer-social-list a:hover,
 footer .footer-social-list a:focus {
-	color: #057f78;
+	color:#e580ff;
 }
 
 footer .footer-social-list li {
@@ -1790,7 +1790,7 @@ footer .footer-bottom a:visited {
 
 footer .footer-bottom a:hover,
 footer .footer-bottom a:focus {
-	color: #034e4a;
+	color: #e580ff;
 }
 
 footer .footer-bottom .footer-logo {
@@ -1848,7 +1848,7 @@ footer .back-to-top {
 
 footer .back-to-top a {
 	display: block;
-	background: #034e4a;
+	background: #e580ff;
 	padding: 1.2rem 3rem 1.5rem;
 	color: #FFFFFF;
 }
@@ -1907,9 +1907,6 @@ footer .back-to-top a i {
 	footer .footer-social-list li a {
 		padding: 4.8rem 1.2rem 4.8rem;
 	}
-	footer .footer-social-list li span {
-		display: none;
-	}
 }
 @media only screen and (max-width:400px) {
 	footer .footer-social-list li a {
@@ -1922,4 +1919,30 @@ footer .back-to-top a i {
 		padding: 1.2rem 2.3rem 1.5rem;
 	}
 
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	border-radius: 20px;
+}
+.topbar{
+    background-color: #e580ff;
+    color: #ffffff;
+    padding: 3px 20px !important;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.copyright .phone-number{
+    font-size: 13px !important;
+}
+.copyright .phone-number:hover{
+    color: #e580ff;
+    text-decoration: none;
+}
+.copyright .footer-link:hover{
+	color: #e580ff;
+	text-decoration: none;
 }
